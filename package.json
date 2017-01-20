@@ -21,14 +21,14 @@
   ],
   "readmeFilename": "README.md",
   "dependencies": {
-    "css-wrap": "^0.1.0",
-    "gulp-util": "^3.0.6",
-    "through2": "^2.0.0"
+    "css-wrap": "git+https://github.com/benignware/css-wrap.git",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "mocha": "^2.2.5",
-    "should": "^7.0.2"
+    "gulp": "*",
+    "mocha": "*",
+    "should": "*"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha -R spec"
